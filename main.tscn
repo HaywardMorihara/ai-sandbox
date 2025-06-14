@@ -2,10 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://jibcsjmw3nh5" path="res://pokemon/bulbasaur.tscn" id="1_ig7tw"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Main" type="Node2D"]
 
 [node name="Bulbasaur" parent="." instance=ExtResource("1_ig7tw")]
 position = Vector2(70, 56)
-
-[node name="Destination" type="Node2D" parent="."]
-position = Vector2(177, 94)
