@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://jibcsjmw3nh5"]
+
+[ext_resource type="Texture2D" uid="uid://dfef4b02thtps" path="res://assets/sprites/pokemon/bulbasaur/Walk-Anim.png" id="1_p0guu"]
+
+[node name="Bulbasaur" type="Node2D"]
+
+[node name="SpriteAnimations" type="Node" parent="."]
+
+[node name="Walk" type="Sprite2D" parent="SpriteAnimations"]
+texture = ExtResource("1_p0guu")
+hframes = 6
+vframes = 8
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SpriteAnimations/Walk"]
